@@ -1,5 +1,5 @@
 <template lang="pug">
-  div.main-container.is-flex.is-justify-content-center
+  div.main-container.is-flex.is-flex-direction-column.is-justify-content-center
     div.is-flex.has-text-centered.is-flex-direction-column.is-align-items-center.is-justify-content-center
       h1.ani-title.has-text-weight-bold
         span.has-text-danger Anime&nbsp;
@@ -7,12 +7,13 @@
       p.ani-description.has-text-white Your source of random anime quotes
       div.my-6
         quote-generator
-    //- ani-footer
+    ani-footer
 </template>
 
 <script>
 import AniFooter from '~/components/AniFooter';
 import QuoteGenerator from '~/components/QuoteGenerator';
+
 export default {
   components: {
     AniFooter,
