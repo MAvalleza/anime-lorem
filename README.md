@@ -1,6 +1,6 @@
 # anime-lorem
 
-A random anime quote generator user-interface using the [Animechan API] (https://animechan.vercel.app/)
+A random anime quote generator user-interface using the [Animechan API](https://animechan.vercel.app/)
 
 Created with Nuxt.js and Buefy framework
 
