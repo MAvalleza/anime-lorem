@@ -1,7 +1,22 @@
 <template lang="pug">
-  footer.ani-footer.footer.is-fluid.has-background-black
+  footer.footer.is-fluid.has-background-black
     div.content.has-text-centered
-      p.has-text-white Powered by AIRI API
+      a(
+        href="https://github.com/MAvalleza/anime-lorem"
+        target="_blank"
+        rel="noopener noreferrer"
+      )
+        b-icon(
+          icon="github"
+          size="is-medium"
+          type="is-white"
+        )
+      p.has-text-white.mt-5 Powered by&nbsp;
+        a(
+          href="https://animechan.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        ).has-text-success.has-text-weight-bold Animechan
 </template>
 
 <style scoped>
