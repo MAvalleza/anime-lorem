@@ -1,7 +1,7 @@
 <template lang="pug">
   div.main-container.is-flex.is-flex-direction-column.is-justify-content-center
     div.is-flex.has-text-centered.is-flex-direction-column.is-align-items-center.is-justify-content-center
-      div.columns.is-centered.is-gapless
+      div.columns.is-centered.is-gapless.is-mobile
         div.column.is-4
           b-image(
             :src="require('~/assets/saiki think.webp')"

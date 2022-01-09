@@ -4,7 +4,7 @@
       type="is-info"
       :loading="loading"
       @click="generate"
-    ) GENERATE A WEEB QUOTE
+    ).has-text-weight-bold GENERATE A WEEB QUOTE
     b-modal(
       v-model="quoteModal"
       :width="640"
