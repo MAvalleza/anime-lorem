@@ -1,6 +1,12 @@
 <template lang="pug">
   div.main-container.is-flex.is-flex-direction-column.is-justify-content-center
     div.is-flex.has-text-centered.is-flex-direction-column.is-align-items-center.is-justify-content-center
+      div.columns.is-centered.is-gapless
+        div.column.is-4
+          b-image(
+            :src="require('~/assets/saiki think.webp')"
+            webp-fallback=".png"
+          )
       h1.ani-title.has-text-weight-bold
         span.has-text-danger Anime&nbsp;
         span.has-text-white Lorem
@@ -36,7 +42,7 @@ export default {
 }
 .ani-title {
   font-family: 'Shadows Into Light', 'Verdana', 'Arial';
-  font-size: 80px;
+  font-size: 90px;
 }
 .ani-description {
   font-family: 'Roboto Mono', 'Verdana', 'Arial';
