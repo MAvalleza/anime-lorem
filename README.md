@@ -4,6 +4,8 @@ A random anime quote generator user-interface using the [Animechan API](https://
 
 Created with Nuxt.js and Buefy framework
 
+**[Demo Link](https://anime-lorem.vercel.app/)**
+
 ## Build Setup
 
 ```bash
