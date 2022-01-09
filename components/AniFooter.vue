@@ -1,7 +1,7 @@
 <template lang="pug">
-  footer.footer.is-fluid
+  footer.ani-footer.footer.is-fluid.has-background-black
     div.content.has-text-centered
-      p Powered by AIRI API
+      p.has-text-white Powered by AIRI API
 </template>
 
 <style scoped>
