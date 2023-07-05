@@ -42,7 +42,7 @@ export default {
     async generate () {
       try {
         this.loading = true;
-        const res = await fetch('https://animechan.vercel.app/api/random');
+        const res = await fetch('https://animechan.xyz/api/random');
         this.quoteData = await res.json();
         this.quoteModal = true;
       } catch (e) {
